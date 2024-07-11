@@ -11,15 +11,14 @@ from telethon.tl.functions.channels import ReportSpamRequest
 import pyfiglet
 from termcolor import colored
 
-#softbyAlternativeHospital
-
-a=input("Введи текстовый пароль для запуска программы:")
+a=input("enter password: ")
 if a!="vlad":
-	print(colored(f"Пароль не верен! Завершаю работу программы! ", 'red'))
-	print(colored(f"Уточни его у создателей", 'red'))
+	print(colored(f" 
+password is not correct ", 'red'))
+	print(colored(f"carefully read Readme.md", 'red'))
 	exit()
 else:
-	print(colored(f"Пароль верен! Запускаю работу программы!", 'green'))
+	print(colored(f"carefully read Readme.md", 'green'))
 
 # ASCII-арт приветствия
 ascii_banner = pyfiglet.figlet_format("Jroyyer")
